@@ -2,36 +2,37 @@ body{
 	background-size: cover;
 	background-repeat: repeat;
 	background-attachment: scroll;
-	background-color: black;
+	background-color: #191919;
 }
 .center-signin{
 	padding: 1%;
-	width: 25%;
-	background-color:white;
+	width: 40%;
+    background-color:white;
 	margin:auto;
 	margin-top: 6%;
-	border: 5px gray;
-	border-color: gray;
+	border: 5px;
 	background-attachment: fixed;
 }
 .center-signin .img{
-	width: 100px;
-	margin-left: 30%;
+	width: 130px;
+	margin-left: 42%;
 	height: 100px;
 }
 .h1{
 	margin: 15px;
 	font-size: 25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-align: center;
-	color: black;
+	color: #191919;
 }
 .radio{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin-left: 23%;
 }
 .center-signin label{
 	font-size: 18px;
 	border-width: 5px;
-	border-color: gray; 
+	
 }
 .center-signin .form-control{
 	width: 100%;
@@ -39,7 +40,6 @@ body{
 	font-size: 15px;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	border-color: gray;
 	text-align: center;
 }
 .center-signin button{
@@ -47,8 +47,11 @@ body{
 	height: 35px;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	border-color: grey;	
-	background-color: #09ed68;
+	border-color: #1DE9B6;	
+	background-color: #1DE9B6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
 }
 .center-signin .forgot{
 	margin-left: 7%;
@@ -65,3 +68,8 @@ body{
 	margin-top: -35px;
 	margin-left: 10px;
 }
+
+
+
+
+
