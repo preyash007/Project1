@@ -6,18 +6,14 @@ body{
 }
 .center-signin{
 	padding: 1%;
-	width: 40%;
+	width: 30%;
     background-color:white;
 	margin:auto;
 	margin-top: 6%;
 	border: 5px;
 	background-attachment: fixed;
 }
-.center-signin .img{
-	width: 130px;
-	margin-left: 42%;
-	height: 100px;
-}
+
 .h1{
 	margin: 15px;
 	font-size: 25px;
@@ -41,7 +37,19 @@ body{
 	margin-top: 5px;
 	margin-bottom: 10px;
 	text-align: center;
+
 }
+
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+input[type="password"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+  
 .center-signin button{
 	width: 100%;
 	height: 35px;
