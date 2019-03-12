@@ -66,15 +66,15 @@ input[type="password"]:focus {
 	text-align: center;
 	color: black;
 }
-.fa-user-circle-o{
+.fa-user{
 	position: absolute;
 	margin-top: -35px;
-	margin-left: 15px;
+	margin-left: 10px;
 }
 .fa-key{
 	position: absolute;
-	margin-top: 0px;
-	margin-left: 2px;
+	margin-top: -35px;
+	margin-left: 10px;
 }
 
 
