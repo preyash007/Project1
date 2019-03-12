@@ -2,57 +2,74 @@ body{
 	background-size: cover;
 	background-repeat: repeat;
 	background-attachment: scroll;
-	background-color: black;
+	background-color: #191919;
 }
 .center-signin{
-	padding: 1%;
-	width: 25%;
-	background-color:white;
-	margin:auto;
-	margin-top: 6%;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    background-color:white;
+	
+	margin-top: 10%;
 	border: 5px gray;
-	border-radius: 10px;
-	border-color: gray;
+	border-color: black;
 	background-attachment: fixed;
+
+
 }
 .center-signin img{
-	width: 100px;
+
+	
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;width: 150px;
 	height: 100px;
+	margin:0 auto; 
+
 }
 .center-signin h1{
 	margin: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 25px;
 	text-align: center;
-	color: black;
+	color: #191919;
 }
 .radio{
 	margin-left: 23%;
 }
 .center-signin label{
+	align-self: center;
 	font-size: 18px;
 	border-width: 5px;
 	border-color: gray; 
 }
 .center-signin .form-control{
-	width: 100%;
+	width: 85%;
 	height: 30px;
 	font-size: 15px;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	border-color: gray;
-	border-radius: 5px;
+	margin-left: 60px;
+	
+}
+
+.center-signin .checkbox{
+
+	margin-left: 55px;
 }
 .center-signin button{
-	width: 100%;
+	width: 86%;
 	height: 35px;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	border-color: grey;
-	border-radius: 5px;	
-	background-color: #09ed68;
+	margin-left: 59px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+    border-color: #1DE9B6;
+	background-color: #1DE9B6;
 }
 .center-signin .forgot{
-	margin-left: 7%;
+	margin-left: 1%;
 	text-align: center;
 	color: black;
 }
