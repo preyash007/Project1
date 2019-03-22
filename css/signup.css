@@ -1,0 +1,81 @@
+body{
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-color: #191919;
+}
+.center-signin{
+	padding: 1%;
+	width: 37%;
+	height: 70%;
+    background-color:white;
+	margin:auto;
+	margin-top: 8%;
+	border: 5px;
+	background-attachment: fixed;
+}
+
+.h1{
+	margin: 15px;
+	font-size: 25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	color: #191919;
+}
+.center-signin label{
+
+	margin-left: 20px;
+	font-size: 15px;
+	border-width: 5px;
+}
+.center-signin .form-control{
+	width: 65%;
+	height: 30px;
+	font-size: 15px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	text-align: left;
+
+}
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+input[type="password"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+  
+.center-signin button{
+	width: 33%;
+	height: 40px;
+	margin-left: 30%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-color: #1DE9B6;	
+	background-color: #1DE9B6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+#Username{
+	margin-left: 13%;
+}
+#EmailAddress{
+	margin-left: 7%;
+}
+#Password{
+	margin-left: 13%;
+}
+#ConfirmPassword{
+	margin-left: 2%;
+}
+#Remember{
+	margin-left: 30%;
+	font-size: 12px;
+}
+.loginhere{
+	margin-left: 42%;
+	color: white;
+}
