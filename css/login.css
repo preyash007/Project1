@@ -21,10 +21,7 @@ body{
 	text-align: center;
 	color: #191919;
 }
-.radio{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin-left: 23%;
-}
+
 .center-signin label{
 	font-size: 18px;
 	border-width: 5px;
